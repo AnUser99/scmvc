@@ -33,7 +33,7 @@ public class MyController {
 
         emp.setName("Mr." + emp.getName());
         emp.setSurname(emp.getSurname() + "!");
-        emp.setSalary(emp.getSalary() * 10);
+//        emp.setSalary(emp.getSalary() * 10);
 
         return "show-emp-details-view";
     }
