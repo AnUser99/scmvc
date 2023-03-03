@@ -8,22 +8,26 @@
 <br>
 <br>
 <%--Your name: ${param.employeeName}--%>
-Your name: ${employee.name}
+Name: ${employee.name}
 <br>
-Your surname: ${employee.surname}
+Surname: ${employee.surname}
 <br>
-Yoyr salary: ${employee.salary}
+Salary: ${employee.salary}
 <br>
-Your department: ${employee.department}
+Department: ${employee.department}
 <br>
-Your car: ${employee.carBrand}
+Car: ${employee.carBrand}
 <br>
-Your languages:
+Languages:
 <ul>
     <c:forEach var="lang" items="${employee.languages}">
         <li> ${lang} </li>
     </c:forEach>
 </ul>
+
+Phone number: ${employee.phoneNumber}
+<br>
+Email: ${employee.email}
 
 </body>
 </html>
